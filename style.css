@@ -59,7 +59,7 @@ html {
   color: var(--text-color-primary);
 }
 
-.header__link:hover {
+.link:hover {
   color: var(--primary-color);
   transition: 0.1s;
 }
@@ -114,12 +114,12 @@ html {
 
 .list {
   list-style: none;
-  margin-top: 60px;
 }
 
 .hero__list {
   display: flex;
   gap: 30px;
+  margin-top: 60px;
 }
 
 .person-card {
@@ -176,7 +176,18 @@ html {
   flex-direction: column;
   align-items: center;
   width: var(--container-width);
-  gap: 20px;
+  gap: 28px;
+}
+
+.footer__navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__link {
+font-size: 18px;
+color: var(--text-color-primary);
+font-weight: 600;
 }
 
 .footer__list {
